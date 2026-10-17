@@ -1,51 +1,55 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/nabinla/PulseBoard/main/docs/logo.png" width="96" alt="PulseBoard logo">
+
 # PulseBoard
 
-**Bilgisayarının nabzı, tek ekranda.**
+**Your PC's pulse, on one screen.**
 
-Canlı sistem izleme, internet hız testi, ekran süresi ve oyun modu, hepsi tek bir şık uygulamada.
+Live system monitoring, internet speed test, screen time and game mode, all in one sleek app.
 
-[![İndir](https://img.shields.io/github/v/release/nabinla/PulseBoard?label=%C4%B0ndir&style=for-the-badge&color=4F9DFF)](https://github.com/nabinla/PulseBoard/releases/latest)
+[![Download](https://img.shields.io/github/v/release/nabinla/PulseBoard?label=Download&style=for-the-badge&color=4F9DFF)](https://github.com/nabinla/PulseBoard/releases/latest)
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-A274FF?style=for-the-badge)
-![İndirme](https://img.shields.io/github/downloads/nabinla/PulseBoard/total?style=for-the-badge&color=2EC4A0&label=indirme)
+![Downloads](https://img.shields.io/github/downloads/nabinla/PulseBoard/total?style=for-the-badge&color=2EC4A0&label=downloads)
 
 </div>
 
 ---
 
-## ✨ Özellikler
+## ✨ Features
 
 | | |
 |---|---|
-| 📊 **Canlı sistem izleme** | İşlemci, bellek, ekran kartı, disk ve ağ kullanımı anlık grafiklerle |
-| 🚀 **İnternet hız testi** | Ping, indirme ve yükleme hızı; IP adresin, servis sağlayıcın ve bağlandığın sunucu |
-| ⏱️ **Ekran süresi** | Hangi programı ne kadar kullandığın, PulseBoard kapalıyken bile kaydedilir |
-| 🎮 **Oyun modu** | Tek tıkla yüksek performans ve sessiz bildirimler |
-| 🧹 **Disk temizleyici** | Gereksiz dosyaları bul ve temizle |
-| 📦 **Kurulu programlar** | Bilgisayarındaki tüm programlar tek listede |
-| 🎨 **Temalar** | Hazır temalar, kendi renklerin ve cam efekti |
-| 🌍 **24 dil** | Türkçe, English, Deutsch, Français, Español, 日本語 ve daha fazlası |
-| 🔄 **Otomatik güncelleme** | Yeni sürüm çıkınca PulseBoard sana haber verir |
+| 📊 **Live system monitor** | CPU, memory, GPU, disk and network usage with real-time charts |
+| 🚀 **Internet speed test** | Ping, download and upload speed, plus your IP address, ISP and server location |
+| ⏱️ **Screen time** | See how long you use each app, tracked even when PulseBoard is closed |
+| 🎮 **Game mode** | One click for maximum performance and silent notifications |
+| 🧹 **Disk cleaner** | Find and remove junk files |
+| 📦 **Installed programs** | Every program on your PC in one list |
+| 🎨 **Themes** | Built-in themes, your own colors and a glass effect |
+| 🌍 **24 languages** | English, Türkçe, Deutsch, Français, Español, 日本語 and more |
+| 🔄 **Automatic updates** | PulseBoard lets you know when a new version is out |
 
-## 📥 Kurulum
+## 📥 Installation
 
-1. **[Son sürümü indir](https://github.com/nabinla/PulseBoard/releases/latest)** → `PulseBoardSetup.exe`
-2. Çalıştır ve **Kur**'a bas. Yönetici izni gerekmez.
-3. Gerekirse .NET 10 kurulum sırasında otomatik indirilir.
+1. **[Download the latest release](https://github.com/nabinla/PulseBoard/releases/latest)** → `PulseBoardSetup.exe`
+2. Run it and click **Install**. No admin rights needed.
+3. If needed, .NET 10 is downloaded automatically during setup.
 
-> **Windows "bilinmeyen yayıncı" uyarısı mı verdi?** PulseBoard henüz dijital olarak imzalı değil.
-> **Ek bilgi → Yine de çalıştır**'a tıklaman yeterli.
+> **Windows shows an "unknown publisher" warning?** PulseBoard isn't digitally signed yet.
+> Just click **More info → Run anyway**.
 
-## 🐞 Sorun mu buldun?
+## 🐞 Found a problem?
 
-PulseBoard içinde **Ayarlar → Hakkında → Sorun bildir**'e bas. Sürüm ve sistem bilgileri doldurulmuş bir bildirim sayfası açılır.
-Ya da doğrudan [buradan](https://github.com/nabinla/PulseBoard/issues/new) yazabilirsin.
+In PulseBoard, go to **Settings → About → Report a problem**. A report page opens with your version and system info already filled in.
+Or [open an issue here](https://github.com/nabinla/PulseBoard/issues/new).
 
-## 🗑️ Kaldırma
+## 🗑️ Uninstall
 
-**Windows Ayarları → Uygulamalar → PulseBoard → Kaldır.** İstersen ayarlarını ve ekran süresi geçmişini de silebilirsin.
+**Windows Settings → Apps → PulseBoard → Uninstall.** You can choose to also remove your settings and screen time history.
 
 ---
 
-
+<div align="center">
 <sub>© 2026 PulseBoard</sub>
 </div>
