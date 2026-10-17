@@ -8,9 +8,7 @@
 
 Live system monitoring, internet speed test, screen time and game mode, all in one sleek app.
 
-[![Download](https://img.shields.io/github/v/release/nabinla/PulseBoard?label=Download&style=for-the-badge&color=4F9DFF)](https://github.com/nabinla/PulseBoard/releases/latest)
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-A274FF?style=for-the-badge)
-![Downloads](https://img.shields.io/github/downloads/nabinla/PulseBoard/total?style=for-the-badge&color=2EC4A0&label=downloads)
+<a href="https://github.com/nabinla/PulseBoard/releases/latest/download/PulseBoardSetup.exe"><img src="https://raw.githubusercontent.com/nabinla/PulseBoard/main/docs/download.svg" width="240" alt="Download PulseBoard"></a>
 
 </div>
 
