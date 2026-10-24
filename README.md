@@ -8,7 +8,7 @@
 
 Live system monitoring, internet speed test, screen time and game mode, all in one sleek app.
 
-<a href="https://github.com/nabinla/PulseBoard/releases/latest/download/PulseBoardSetup.exe"><img src="https://raw.githubusercontent.com/nabinla/PulseBoard/main/docs/download.svg" width="240" alt="Download PulseBoard"></a>
+<a href="https://apps.microsoft.com/detail/9N3MJ375R1GJ"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="240" alt="Get it from Microsoft"></a>
 
 </div>
 
@@ -27,16 +27,17 @@ Live system monitoring, internet speed test, screen time and game mode, all in o
 | 🧭 **Your layout** | Put the menu on any edge, reorder pages and rearrange dashboard cards by dragging |
 | 🎨 **Themes & backgrounds** | Built-in themes, any accent color, your own background picture and a glass effect |
 | 🌍 **24 languages** | English, Türkçe, Deutsch, Français, Español, 日本語 and more |
-| 🔄 **Automatic updates** | PulseBoard lets you know when a new version is out |
+| 🔄 **Automatic updates** | New versions arrive automatically through the Microsoft Store |
 
 ## 📥 Installation
 
-1. **[Download the latest release](https://github.com/nabinla/PulseBoard/releases/latest)** → `PulseBoardSetup.exe`
-2. Run it and click **Install**. No admin rights needed.
-3. If needed, .NET 10 is downloaded automatically during setup.
+**[Get PulseBoard from the Microsoft Store](https://apps.microsoft.com/detail/9N3MJ375R1GJ)**
 
-> **Windows shows "Windows protected your PC"?** This appears because PulseBoard isn't digitally signed yet, not because something is wrong.
-> Click **More info → Run anyway**. Every release is built from the same source, and the update file is checked with a SHA-256 hash before it is installed.
+- Free, one click to install
+- Updates arrive automatically through the Store
+- Everything included, nothing else to download
+
+Requires Windows 10 (version 2004) or Windows 11.
 
 ## 🐞 Found a problem?
 
