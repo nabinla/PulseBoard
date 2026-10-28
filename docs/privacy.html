@@ -44,38 +44,62 @@
     </div>
     <div>
       <h1>PulseBoard Privacy Policy</h1>
-      <p class="updated">Last updated: October 22, 2026</p>
+      <p class="updated">Last updated: October 28, 2026 · applies to PulseBoard 1.3.0 and later</p>
     </div>
   </header>
 
   <section class="highlight">
     <h2>The short version</h2>
-    <p>PulseBoard is a free Windows app made by <strong>Pulseforge</strong>. <strong>PulseBoard does not collect, sell or share your personal data.</strong> Everything it measures stays on your PC.</p>
+    <p>PulseBoard is a free Windows app made by <strong>Pulseforge</strong>. <strong>PulseBoard does not collect, sell or share your personal data.</strong> Everything it measures and saves stays on your PC. There are no accounts, no ads and no analytics.</p>
   </section>
 
   <section>
     <h2>Data that stays on your PC</h2>
+    <p>PulseBoard saves the following only in its own data folder on your PC (<code>%AppData%\PulseBoard</code>). None of it is uploaded anywhere.</p>
     <ul>
-      <li><strong>System information:</strong> CPU, memory, GPU, disk, network and battery readings are shown live and are not sent anywhere.</li>
-      <li><strong>Screen time:</strong> The names of the apps you use and how long you use them are saved only on your PC, in the app's own data folder. You can delete this history at any time in the app, and it is removed when you uninstall the app.</li>
-      <li><strong>Settings and backgrounds:</strong> Your preferences and any background picture you choose are saved in the same folder on your PC.</li>
+      <li><strong>System information:</strong> CPU, memory, GPU, disk, network and battery readings, your PC's name and its hardware details are shown live and are not sent anywhere.</li>
+      <li><strong>Screen time:</strong> The names of the apps you use, where they are installed (to show their icons) and how long you use them. If you open the "Windows record" view, PulseBoard reads Windows' own app usage history on your PC to display it; it does not copy or send it.</li>
+      <li><strong>Speed test history:</strong> The date, ping, jitter, download and upload speed of your past tests. Your IP address is not saved.</li>
+      <li><strong>Network event log:</strong> When Network Monitor is on, the times and lengths of connection drops and latency spikes.</li>
+      <li><strong>Settings and backgrounds:</strong> Your preferences and any background picture you choose.</li>
+      <li><strong>Error log:</strong> If something goes wrong, a technical error message is saved so the problem can be fixed. It can contain file paths on your PC. It is never sent automatically.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Your control over this data</h2>
+    <ul>
+      <li>In <strong>Settings › Data and Reset</strong> you can see how much screen time, speed test and network history is saved and delete each one separately. You can also reset all settings to their defaults.</li>
+      <li>Screen time tracking can be turned off at any time on the Screen Time page.</li>
+      <li><strong>Export settings</strong> saves your settings to a file you choose, and <strong>Import settings</strong> reads such a file. These files stay wherever you put them; PulseBoard does not upload them.</li>
+      <li>When you uninstall the Microsoft Store version, Windows normally removes its data too. If you used an older version downloaded from GitHub, its folder may remain; you can delete <code>%AppData%\PulseBoard</code> yourself at any time.</li>
     </ul>
   </section>
 
   <section>
     <h2>When PulseBoard connects to the internet</h2>
     <ul>
-      <li><strong>Speed test:</strong> Test data is exchanged with Cloudflare's speed test servers (<code>speed.cloudflare.com</code>). To show your public IP address, internet provider and server location, the app also contacts ipinfo.io. This happens only when you start a test.</li>
+      <li><strong>Speed test:</strong> Test data is exchanged with Cloudflare's speed test servers (<code>speed.cloudflare.com</code>). To show your public IP address, internet provider and server location, the app also contacts <code>ipinfo.io</code>. This happens only when you start a test, and the IP address is only shown on screen.</li>
       <li><strong>Network Monitor:</strong> When you turn it on, the app sends ping requests to the server you choose (for example 1.1.1.1 or 8.8.8.8).</li>
-      <li><strong>Updates:</strong> The Microsoft Store version is updated by the Microsoft Store. The version downloaded from GitHub checks GitHub for new versions.</li>
-      <li><strong>Report a problem:</strong> If you choose to report a problem, a GitHub page opens in your browser with your app version and basic system details filled in. Nothing is sent unless you submit it yourself.</li>
+      <li><strong>Updates:</strong> PulseBoard is distributed through the Microsoft Store. When it starts, it asks the Microsoft Store whether a newer version is available, and updates are downloaded and installed by the Store. This is handled by Windows under Microsoft's privacy statement.</li>
+      <li><strong>Rate the app, Privacy and Store links:</strong> These open the Microsoft Store or this page in your browser. Nothing is sent by PulseBoard.</li>
+      <li><strong>Report a problem:</strong> If you choose to report a problem, a GitHub page opens in your browser with your app version, Windows version, .NET version, app language and the last lines of the error log filled in. You can read and edit everything before sending, and nothing is sent unless you submit it yourself.</li>
     </ul>
     <p style="margin-top:12px">These services have their own privacy policies. PulseBoard does not send them any information about you beyond what is needed for the request.</p>
   </section>
 
   <section>
+    <h2>Things PulseBoard does only when you ask</h2>
+    <ul>
+      <li><strong>Disk Cleaner</strong> deletes temporary files, crash dumps and the Recycle Bin only after you choose what to clean and confirm.</li>
+      <li><strong>Game Mode</strong> closes only the programs you selected for it.</li>
+      <li><strong>Startup apps</strong> are turned on or off only when you change them.</li>
+    </ul>
+  </section>
+
+  <section>
     <h2>No ads, no tracking</h2>
-    <p>PulseBoard has no ads, no analytics, no accounts and no tracking of any kind.</p>
+    <p>PulseBoard has no ads, no analytics, no accounts and no tracking of any kind. It does not use cookies.</p>
   </section>
 
   <section>
